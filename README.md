@@ -58,6 +58,10 @@ docker pull dockermonster/nginx-ingress-controller:0.9.0-beta.4
 docker tag dockermonster/nginx-ingress-controller:0.9.0-beta.4 gcr.io/google_containers/nginx-ingress-controller:0.9.0-beta.4
 ```
 
+## 退出minikube命令模式
+
+直接输入`exit`
+
 ## kubectl启动echoserver 镜像并生成pod
 
 `kubectl run hello-minikube --image=dockermonster/echoserver:1.4 --port=8080`
