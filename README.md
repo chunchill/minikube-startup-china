@@ -4,7 +4,7 @@ a quick guide for how to run minikube in china because the great firewall of Chi
 
 ## 安装minikube
 
-- 首先到VisualBox的官方网站安装VisualBox的最新版本
+- 首先到VisualBox的官方网站(https://www.virtualbox.org/)安装VisualBox的最新版本
 - 到minikube Github官方网站（https://github.com/kubernetes/minikube）上参考安装minikube
   `brew cask install minikube`
 
