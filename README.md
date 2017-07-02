@@ -15,7 +15,10 @@ a quick guide for how to run minikube in china because the great firewall of Chi
 
 `minikube start --registry-mirror=http://44d249ac.m.daocloud.io`
 
-## 进入虚拟机手动拉取镜像，并运行docker tag，依次执行下面的命令
+## 进入虚拟机手动拉取镜像，并运行docker tag
+
+`minikube ssh` 然后进入到命令模式，依次执行下面的命令：
+
 ```
 docker pull dockermonster/pause-amd64:3.0
 docker tag dockermonster/pause-amd64:3.0 gcr.io/google_containers/pause-amd64:3.0
