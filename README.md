@@ -1,5 +1,5 @@
 # minikube-startup-china
-a quick guide for how to run minikube in china because the greate firewall of China 
+a quick guide for how to run minikube in china because the great firewall of China 
 这篇文章的安装只针对macOS
 
 ## 安装minikube
